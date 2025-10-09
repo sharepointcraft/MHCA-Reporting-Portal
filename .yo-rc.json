@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "reporting-portal",
+    "libraryId": "2f2e4b16-43e4-482d-933e-2bce328d7e03",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Reporting Portal",
+    "solutionShortDescription": "Reporting Portal description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

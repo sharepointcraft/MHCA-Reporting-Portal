@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reporting-portal-client-side-solution",
+    "id": "2f2e4b16-43e4-482d-933e-2bce328d7e03",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Reporting Portal description"
+      },
+      "longDescription": {
+        "default": "Reporting Portal description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reporting-portal Feature",
+        "description": "The feature that activates elements of the reporting-portal solution.",
+        "id": "c3f3be15-d535-4ba9-8e50-5666524a58f6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reporting-portal.sppkg"
+  }
+}
