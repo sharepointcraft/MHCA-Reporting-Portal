@@ -1,0 +1,60 @@
+.container {
+  padding: 30px;
+  text-align: center;
+  // background: #0e1a2b;
+  background: url("../webparts/reportingPortal/assets/background.jpg") no-repeat center center/cover;
+  min-height: 80vh;
+
+}
+
+.searchBox {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+
+  input {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+
+  button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+}
+
+.departmentsGrid {
+  display: grid;
+  // flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+}
+
+.departmentCard {
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    height: 70px;
+    width: 190px;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-start;
+
+  .iconArea {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+}

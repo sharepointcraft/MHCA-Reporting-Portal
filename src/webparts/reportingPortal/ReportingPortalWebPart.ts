@@ -10,7 +10,9 @@ export interface IReportingPortalWebPartProps {
 export default class ReportingPortalWebPart extends BaseClientSideWebPart<IReportingPortalWebPartProps> {
   public render(): void {
     const element: React.ReactElement<IReportingPortalProps> = React.createElement(
-      ReportingPortal
+      ReportingPortal,
+      { context: this.context } // ✅ Pass context here
+
     );
 
     ReactDom.render(element, this.domElement);
