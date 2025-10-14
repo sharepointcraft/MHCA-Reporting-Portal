@@ -1,0 +1,39 @@
+.container {
+  padding: 30px;
+  background-color: #f8f9fb;
+  min-height: 100vh;
+}
+
+.backBtn {
+  background: transparent;
+  border: none;
+  color: #0078d4;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.subCategoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.subCategoryCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subCategoryCard:hover {
+  transform: translateY(-4px);
+}
